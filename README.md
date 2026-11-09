@@ -1,6 +1,6 @@
 The Metropolitan Museum of Art (The Met)
 
-A responsive landing page inspired by The Metropolitan Museum of Art in New York City. The project presents information about the museum, including visiting hours, current exhibitions, online collections, and contact details.
+The project presents information about the museum, including their schedule, current exhibitions, and contact details.
 
  Live Preview - [DEMO LINK](https://student1232354.github.io/The-Metropolitan-Museum-of-Art-only-client-/)
 
