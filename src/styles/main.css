@@ -447,6 +447,7 @@ ul {
   -ms-flex-direction: column;
   flex-direction: column;
   gap: 5px;
+
   max-width: 280px;
   padding-top: 10px;
 }
@@ -487,6 +488,7 @@ ul {
   display: flex;
   -ms-flex-direction: column;
   flex-direction: column;
+
   /* stylelint-disable-next-line compat-api/css */
   align-items: center;
   margin-bottom: 140px;
@@ -524,6 +526,7 @@ ul {
   display: flex;
   -ms-flex-direction: column;
   flex-direction: column;
+
   /* stylelint-disable-next-line compat-api/css */
   gap: 40px;
   width: 100%;
@@ -571,6 +574,7 @@ ul {
 .exhibitions__images img {
   -ms-flex: 1 1 0%;
   flex: 1 1 0%;
+
   min-width: 0;
   /* stylelint-disable-next-line compat-api/css */
   -o-object-fit: cover;
@@ -843,6 +847,7 @@ ul {
   flex-direction: column;
   /* stylelint-disable-next-line compat-api/css */
   gap: 20px;
+
   width: 100%;
 }
 
