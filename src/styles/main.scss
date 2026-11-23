@@ -327,7 +327,10 @@ ul {
     -ms-flex-direction: column;
     flex-direction: column;
     /* stylelint-disable-next-line compat-api/css */
+    gap: 15px;
+    /* stylelint-disable-next-line compat-api/css */
     align-items: flex-start;
+
 
     font-family: Cinzel, serif;
     font-size: 22px;

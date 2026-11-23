@@ -339,12 +339,26 @@ ul {
   list-style: none;
 }
 
+.burger__links__1 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  /* stylelint-disable-next-line compat-api/css */
+  align-items: flex-start;
+
+  font-family: Cinzel, serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 22px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  list-style: none;
+}
+
 .links__things {
   display: inline-block;
-
-  margin-bottom: 17px;
-  padding-bottom: 3px;
-
   color: #fff;
   text-decoration: none;
   list-style: none;
