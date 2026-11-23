@@ -11,6 +11,11 @@ html {
   padding: 0;
 }
 
+html.no-scroll {
+  overflow: hidden;
+  background-color: #d12d35;
+}
+
 body {
   /* stylelint-disable-next-line compat-api/css */
   scroll-behavior: smooth;
