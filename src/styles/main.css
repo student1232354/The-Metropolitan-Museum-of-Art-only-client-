@@ -491,6 +491,7 @@ ul {
 
   /* stylelint-disable-next-line compat-api/css */
   align-items: center;
+
   margin-bottom: 140px;
 }
 
@@ -529,6 +530,7 @@ ul {
 
   /* stylelint-disable-next-line compat-api/css */
   gap: 40px;
+
   width: 100%;
 }
 
