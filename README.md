@@ -36,7 +36,7 @@ To install the project and run it locally, follow these steps:
 
 1. Clone the repository:
 ```bash
-   git clone [https://github.com/student1232354/The-Metropolitan-Museum-of-Art-only-client-.git](https://github.com/student1232354/The-Metropolitan-Museum-of-Art-only-client-.git)
+   git clone https://github.com/student1232354/The-Metropolitan-Museum-of-Art-only-client-.git
 ```
 2.   Navigate to the project directory:
 ```bash
