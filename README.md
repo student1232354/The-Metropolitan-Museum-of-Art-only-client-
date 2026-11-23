@@ -39,6 +39,7 @@ To install the project and run it locally, follow these steps:
 
 
 2.   Navigate to the project directory:
+    ```bash
     cd The-Metropolitan-Museum-of-Art-only-client-
 3. Install dependencies:
   npm install
