@@ -35,24 +35,29 @@ To run this project, you will need:
 To install the project and run it locally, follow these steps:
 
 1. Clone the repository:
+```bash
    git clone [https://github.com/student1232354/The-Metropolitan-Museum-of-Art-only-client-.git](https://github.com/student1232354/The-Metropolitan-Museum-of-Art-only-client-.git)
-
-
+```
 2.   Navigate to the project directory:
-    ```bash
+```bash
     cd The-Metropolitan-Museum-of-Art-only-client-
+```
 3. Install dependencies:
+```bash
   npm install
+```
 4. Start the local development server:
+```bash
   npm start
+```
 
 ## Usage
-After starting the project, it will be available locally in your browser (typically at http://localhost:8080 or http://localhost:1234). You can use this project to explore information about the museum, test the responsive layout across different screen widths, and interact with the navigation menu and contact form.
+After starting the project, it will be available locally in your browser (typically at http://localhost:8080).
 
 ## Example
 Live Preview:    [Demo Link](https://student1232354.github.io/The-Metropolitan-Museum-of-Art-only-client-/)
 
-Design Reference: [Figma — THE MET](https://www.figma.com/design/lSR1m42L9YwzQwzzxKwHpw/THE-MET?node-id=8590-29&p=f)
+Design Reference: [Figma - THE MET](https://www.figma.com/design/lSR1m42L9YwzQwzzxKwHpw/THE-MET?node-id=8590-29&p=f)
 
 ## Technologies Used
 This project was built using the following technologies:
