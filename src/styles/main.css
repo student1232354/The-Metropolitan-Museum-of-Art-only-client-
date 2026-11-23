@@ -928,6 +928,7 @@ ul {
 
 .logo {
   cursor: pointer;
+  color: #fff;
   transition: transform 0.3s;
 }
 
