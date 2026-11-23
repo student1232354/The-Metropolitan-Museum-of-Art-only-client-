@@ -1,12 +1,19 @@
 html {
   /* stylelint-disable-next-line compat-api/css */
   scroll-behavior: smooth;
+  /* stylelint-disable-next-line compat-api/css */
+  scrollbar-gutter: stable;
 
   overflow-x: hidden;
 
   width: 100%;
   margin: 0;
   padding: 0;
+}
+
+html.no-scroll {
+  overflow: hidden;
+  background-color: #d12d35;
 }
 
 body {
@@ -72,6 +79,11 @@ ul {
 
   &__menu {
     cursor: pointer;
+    transition: transform 0.3s, opacity 0.3s;
+    &:hover {
+      transform: scale(1.1);
+      opacity: 0.8;
+    }
   }
 
   &__top {
@@ -309,14 +321,28 @@ ul {
     letter-spacing: 2px;
     list-style: none;
   }
+
+    &__links__1 {
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    /* stylelint-disable-next-line compat-api/css */
+    align-items: flex-start;
+
+    font-family: Cinzel, serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    list-style: none;
+  }
 }
 
 .links__things {
   display: inline-block;
-
-  margin-bottom: 17px;
-  padding-bottom: 3px;
-
   color: #fff;
   text-decoration: none;
   list-style: none;
@@ -883,4 +909,14 @@ ul {
 .burger__links a,
 .burger__menu a {
   text-decoration: none !important;
+}
+
+.logo {
+  cursor: pointer;
+  color: #fff;
+  transition: transform 0.3s;
+}
+
+.logo:hover {
+  transform: scale(1.05);
 }

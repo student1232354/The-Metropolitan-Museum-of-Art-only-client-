@@ -26,8 +26,11 @@
       <div class="container">
         <div class="burger__header">
           <div class="burger__logo">
+            <a href="#home" class="logo">
             THE <br />
             MET
+            </a>
+
           </div>
           <div class="burger__cross">
             <img src="sources/Icon-Close.png" alt="Icon-Close.png" />
@@ -35,7 +38,7 @@
         </div>
 
         <div class="burger__things">
-          <ul class="burger__links">
+          <ul class="burger__links__1">
             <li><a href="#home" class="links__things">Home</a></li>
             <li><a href="#About" class="links__things">About Us</a></li>
             <li><a href="#gallery" class="links__things">gallery</a></li>
@@ -391,11 +394,20 @@
         const openBtn = document.querySelector(".header__menu");
         const closeBtn = document.querySelector(".burger__cross");
         const burgerLinks = document.querySelectorAll(".links__things");
+        const logoLink = document.querySelectorAll(".logo");
+
+        logoLink.forEach((link) => {
+          link.addEventListener("click", () => {
+            burgerMenu.classList.remove("burger__menu--open");
+            document.documentElement.classList.remove("no-scroll");
+            document.body.classList.remove("no-scroll");
+          });
+        });
 
         burgerLinks.forEach((link) => {
           link.addEventListener("click", () => {
             burgerMenu.classList.remove("burger__menu--open");
-
+            document.documentElement.classList.remove("no-scroll");
             document.body.classList.remove("no-scroll");
           });
         });
@@ -403,7 +415,6 @@
         if (openBtn) {
           openBtn.addEventListener("click", function (e) {
             e.preventDefault();
-            console.log("Клікнули на кнопку ВІДКРИТТЯ");
             if (burgerMenu) {
               burgerMenu.classList.add("burger__menu--open");
               document.documentElement.classList.add("no-scroll");
@@ -415,7 +426,6 @@
         if (closeBtn) {
           closeBtn.addEventListener("click", function (e) {
             e.preventDefault();
-            console.log("Клікнули на кнопку ЗАКРИТТЯ");
             if (burgerMenu) {
               burgerMenu.classList.remove("burger__menu--open");
               document.documentElement.classList.remove("no-scroll");
@@ -444,6 +454,8 @@
 
         form.reset();
       });
+
+
     </script>
   </body>
 </html>

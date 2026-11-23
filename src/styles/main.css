@@ -1,6 +1,8 @@
 html {
   /* stylelint-disable-next-line compat-api/css */
   scroll-behavior: smooth;
+  /* stylelint-disable-next-line compat-api/css */
+  scrollbar-gutter: stable;
 
   overflow-x: hidden;
 
@@ -77,6 +79,12 @@ ul {
 
 .header__menu {
   cursor: pointer;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.header__menu:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
 }
 
 .header__top {
@@ -311,7 +319,6 @@ ul {
 
 .burger__links {
   display: flex;
-  -ms-flex-direction: column;
   flex-direction: column;
   /* stylelint-disable-next-line compat-api/css */
   align-items: flex-start;
@@ -444,10 +451,8 @@ ul {
 }
 
 .schedule__item--special {
-  -ms-flex-direction: column;
   flex-direction: column;
   gap: 5px;
-
   max-width: 280px;
   padding-top: 10px;
 }
@@ -486,12 +491,9 @@ ul {
 
 .exhibitions {
   display: flex;
-  -ms-flex-direction: column;
   flex-direction: column;
-
   /* stylelint-disable-next-line compat-api/css */
   align-items: center;
-
   margin-bottom: 140px;
 }
 
@@ -525,18 +527,14 @@ ul {
 
 .exhibitions__list {
   display: flex;
-  -ms-flex-direction: column;
   flex-direction: column;
-
   /* stylelint-disable-next-line compat-api/css */
   gap: 40px;
-
   width: 100%;
 }
 
 .exhibitions__card {
   display: flex;
-  -ms-flex-direction: column;
   flex-direction: column;
 
   width: 100%;
@@ -574,9 +572,7 @@ ul {
 }
 
 .exhibitions__images img {
-  -ms-flex: 1 1 0%;
   flex: 1 1 0%;
-
   min-width: 0;
   /* stylelint-disable-next-line compat-api/css */
   -o-object-fit: cover;
@@ -596,12 +592,10 @@ ul {
 }
 
 .exhibitions__images--first img:first-child {
-  -ms-flex: 2.1 1 0%;
   flex: 2.1 1 0%;
 }
 
 .exhibitions__images--third img:nth-child(2) {
-  -ms-flex: 2 1 0%;
   flex: 2 1 0%;
 }
 
@@ -702,7 +696,6 @@ ul {
 }
 
 .explore__block {
-  -ms-flex: 1 1 0%;
   flex: 1 1 0%;
   margin-bottom: 20px;
   /* stylelint-disable-next-line compat-api/css */
@@ -776,7 +769,6 @@ ul {
 }
 
 .footer__info {
-  -ms-flex: 1;
   flex: 1;
 }
 
@@ -838,18 +830,15 @@ ul {
 }
 
 .feedback {
-  -ms-flex: 1;
   flex: 1;
   max-width: 411px;
 }
 
 .feedback__form {
   display: flex;
-  -ms-flex-direction: column;
   flex-direction: column;
   /* stylelint-disable-next-line compat-api/css */
   gap: 20px;
-
   width: 100%;
 }
 
@@ -930,4 +919,13 @@ ul {
 .burger__links a,
 .burger__menu a {
   text-decoration: none !important;
+}
+
+.logo {
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.logo:hover {
+  transform: scale(1.05);
 }
